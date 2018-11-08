@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-img_20181025_124138stitched",
-      "name": "IMG_20181025_124138.stitched",
+      "id": "0-entrance",
+      "name": "Entrance",
       "levels": [
         {
           "tileSize": 256,
@@ -28,12 +28,19 @@ var APP_DATA = {
         "pitch": -0.0035031081245371354,
         "fov": 1.5588831154178566
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.3926792610190226,
+          "pitch": 0.09335114853936766,
+          "rotation": 12.566370614359176,
+          "target": "1-toilet"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "1-img_20181025_124202stitched",
-      "name": "IMG_20181025_124202.stitched",
+      "id": "1-toilet",
+      "name": "Toilet",
       "levels": [
         {
           "tileSize": 256,
@@ -59,7 +66,14 @@ var APP_DATA = {
         "pitch": 0.1138510140473592,
         "fov": 1.5588831154178566
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.726645292353764,
+          "pitch": 0.1320237036668246,
+          "rotation": 0,
+          "target": "0-entrance"
+        }
+      ],
       "infoHotspots": []
     }
   ],
